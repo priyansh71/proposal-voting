@@ -100,6 +100,7 @@ const Proposal = () => {
           onSuccess: () => {
             console.log("Vote Cast Succesfully");
             setSub(false);
+            alert("Transaction completed successfully.");
           },
           onError: (error) => {
             alert(error.data.message);

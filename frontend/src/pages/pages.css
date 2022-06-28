@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Quicksand:wght@400&display=swap');
 
 .voting{
-    margin-top: 200px;
+    margin-top: 50vh;
     background-color: rgb(255, 255, 255);
     height:100vh;
   }
 
   .voting2{
-    margin-top: 400px;
+    margin-top: 50vh;
     background-color: rgb(255, 255, 255);
     height: 80vh;
   }
   
+  strong{
+    color:rgb(49, 186, 180)
+  }
+
   .content{
     margin-top: -60px;
     display: flex;
@@ -29,7 +33,7 @@
   }
   
   .about {
-    color: rgb(35, 21, 78);
+    color: rgb(6, 71, 96);
     font-weight: bold;
     font-size: 26px;
     width: 60vw;
@@ -41,11 +45,6 @@
 
   .proposal{
     margin-bottom: 40px;
-  }
-
-  .votesDiv{
-    display: flex;
-    justify-content: space-evenly;
   }
 
   .backHome {
@@ -176,4 +175,27 @@
     font-size: large;
     margin: 2px;
     font-family: 'Didact Gothic';
+  }
+
+@media screen and (max-width: 600px) {
+    .newProposal {
+      width: 80%;
+    }
+
+    .votesDiv{
+      display: flex;
+      width: 50%;
+      justify-content: space-evenly;
+    }
+  
+}
+
+.newProposal {
+  width: 880px;
+  }
+
+  .votesDiv{
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
   }

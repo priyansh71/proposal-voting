@@ -54,6 +54,7 @@ const Home = () => {
         onSuccess: () => {
           console.log("Proposal Succesful");
           setSub(false);
+          alert("Transaction completed successfully.");
         },
         onError: (error) => {
           alert(error);
@@ -217,10 +218,10 @@ const Home = () => {
           </Tab>
           <Tab tabKey={2} tabName="About">
             <div class="about">
-              NFT proof for joining is linked <a href="https://testnets.opensea.io/collection/proposal-nft">here.</a>
+              NFT proof collection for joining is linked <a href="https://testnets.opensea.io/collection/proposal-nft" target="_blank" rel="noreferrer" >here.</a>
               <br />
               <br />
-              Made by <a href="https://github.com/priyansh71">Priyansh</a> using&nbsp;
+              Made by <a href="https://github.com/priyansh71" target="_blank" rel="noreferrer">Priyansh</a> using&nbsp;
               <a href="https://moralis.io">Moralis.io</a>
             </div>
             </Tab>
