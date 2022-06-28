@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Quicksand:wght@400&display=swap');
+
+.voting{
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    height:100vh;
+  }
+
+  .voting2{
+    margin-top: 400px;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+  }
+  
+  .content{
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contentProposal{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 26px;
+    width:60vw;
+    font-family: 'Didact Gothic', sans-serif;
+    left: 20vw;
+    position: absolute;
+  }
+  
+  .about {
+    color: rgb(35, 21, 78);
+    font-weight: bold;
+    font-size: 26px;
+    width: 60vw;
+    margin-top: 6%;
+    font-family: 'Didact Gothic', sans-serif;
+    left: 20vw;
+    position: absolute;
+  }
+
+  .proposal{
+    margin-bottom: 40px;
+  }
+
+  .votesDiv{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .backHome {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-size: small;
+    align-items: center;
+    gap: 2px;
+    font-weight: bold;
+    font-family: 'Quicksand';
+  }
+
+  .proposalOverview{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .proposer {
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    color:rgba(0, 0, 0, 0.5);
+    align-items: center;
+  }
+  
+  .newProposal ,.votesDiv {
+    margin-top: 30px;
+  }
+
+  .votesDiv form {
+    width: 30%;
+  }
+
+  .votesDiv label {
+    font-family: 'Quicksand';
+  }
+
+  .newProposal h3, .votesDiv h3 , .describe{
+    color: rgb(38, 35, 113);
+    font-family: 'Didact Gothic';
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .proposer span {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .tabContent {
+    left: 20vw;
+    position: absolute;
+    width:60vw;
+    margin-top: 50px;
+    color: rgb(38, 36, 98);
+    font-family: 'Didact Gothic';
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .widgets { 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 40px 0 30px 0;
+    padding: 10px;
+    height: 150px;
+    font-size: larger;
+    text-align: center;
+  }
+
+  .extraValue {
+    margin: 10px;
+    text-align: right;
+    color: black;
+  }
+
+  .widgets span { 
+   font-family : "Quicksand";
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+  }
+
+  .content span{
+    font-family : "Quicksand";
+  }
+
+  .first{
+    flex-direction: column;
+    align-items: center;
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .extraWidgetInfo{
+    color:rgba(12, 12, 116, 0.907);
+    font-size: 12px;
+    width: 40%;
+    margin-top: 25px;
+  }
+  
+  .extraTitle{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .progress{
+    margin-top: 15px;
+    height: 8px;
+    background-color:rgb(222, 222, 222);
+    border-radius: 4px;
+  }
+  
+  .progressPercentage{
+    height:8px;
+    background-color:rgba(12, 12, 116, 0.907);
+    border-radius: 4px;
+  }
+  
+  .newProposal div, .votesDiv div{
+    font-size: large;
+    margin: 2px;
+    font-family: 'Didact Gothic';
+  }
