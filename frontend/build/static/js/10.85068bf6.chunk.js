@@ -1,0 +1,2 @@
+(this["webpackJsonpmoralis-dao-frontend"]=this["webpackJsonpmoralis-dao-frontend"]||[]).push([[10],{1285:function(n,o){},1286:function(n,o){},1339:function(n,o){},1343:function(n,o){},1345:function(n,o){},1347:function(n,o){}}]);
+//# sourceMappingURL=10.85068bf6.chunk.js.map
